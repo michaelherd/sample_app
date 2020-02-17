@@ -14,6 +14,7 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     }
     end
     assert_template 'users/new'
+    assert_select 'div.field_with_errors'
   end
 
   test "valid signup information" do
@@ -29,5 +30,7 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
       }
       follow_redirect!
     end
-    assert_template 'users/show' end
+    assert_template 'users/show'
+    assert_not flash.nil?
+  end
 end
