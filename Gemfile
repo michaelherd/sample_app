@@ -16,6 +16,9 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 gem 'sdoc', group: :doc
+gem 'faker'
+gem 'will_paginate', '~> 3.1.0'
+gem 'bootstrap-will_paginate'
 
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
@@ -57,7 +60,7 @@ group :test do
   gem 'mini_backtrace'
   gem 'guard-minitest'
 #  # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '>= 2.15'
+  gem 'capybara'
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
