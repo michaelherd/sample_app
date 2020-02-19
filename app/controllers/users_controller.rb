@@ -8,7 +8,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find(params[:id])
+    @user = User.find(params.require(:id))
   end
 
   def new
@@ -22,7 +22,8 @@ class UsersController < ApplicationController
       flash[:success] = "Welcome to the Sample App!"
       redirect_to @user
     else
-      render 'new'
+      flash[:error] = @user.errors.full_messages.to_sentence
+      render :new
     end
   end
 
