@@ -19,7 +19,9 @@ gem 'sdoc', group: :doc
 gem 'faker'
 gem 'will_paginate', '~> 3.1.0'
 gem 'bootstrap-will_paginate'
-
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
