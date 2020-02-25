@@ -74,7 +74,7 @@
     <orderEntry type="library" scope="PROVIDED" name="fog-dnsimple (v2.1.0, rbenv: 2.5.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fog-dynect (v0.0.3, rbenv: 2.5.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fog-ecloud (v0.3.0, rbenv: 2.5.6) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-google (v1.7.1, rbenv: 2.5.6) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-google (v1.9.1, rbenv: 2.5.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fog-internet-archive (v0.0.1, rbenv: 2.5.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fog-json (v1.2.0, rbenv: 2.5.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fog-local (v0.6.0, rbenv: 2.5.6) [gem]" level="application" />
