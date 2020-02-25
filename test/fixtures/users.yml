@@ -17,6 +17,7 @@ archer:
   activated_at: <%= Time.zone.now %>
 
 lana:
+  id: 3
   name: Lana Kane
   email: hands@example.gov
   password_digest: <%= User.digest('password') %>
@@ -24,6 +25,7 @@ lana:
   activated_at: <%= Time.zone.now %>
 
 mallory:
+  id: 4
   name: Mallory Archer
   email: boss@example.gov
   password_digest: <%= User.digest('password') %>
@@ -32,6 +34,7 @@ mallory:
 
   <% 30.times do |n| %>
 user_<%= n %>:
+  id: n.add(4)
   name: <%= "User #{n}" %>
   email: <%= "user-#{n}@example.com" %>
   password_digest: <%= User.digest('password') %>

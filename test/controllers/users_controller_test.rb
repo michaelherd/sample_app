@@ -69,12 +69,12 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should redirect following when not logged in" do
-    get :following, id: @user
+    get following_user_path(@user), params: {  id: @user.id  }
     assert_redirected_to login_url
   end
 
   test "should redirect followers when not logged in" do
-    get :followers, id: @user
+    get followers_user_path(@user), params: {  id: @user.id  }
     assert_redirected_to login_url
   end
 end
