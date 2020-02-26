@@ -21,6 +21,7 @@ gem 'will_paginate', '~> 3.1.0'
 gem 'bootstrap-will_paginate'
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'fog-core', '2.1.0'
 gem 'fog'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'

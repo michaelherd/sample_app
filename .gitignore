@@ -41,4 +41,5 @@ yarn-debug.log*
 # Ignore Spring files
 /spring/*.pid
 
+# Ignore other nonsense
 .DS_Store
