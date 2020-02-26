@@ -18,6 +18,9 @@
 !/log/.keep
 !/tmp/.keep
 
+# Ignore node_modules
+/node_modules/*
+
 # Ignore uploaded files in development.
 /storage/*
 !/storage/.keep
@@ -37,4 +40,6 @@ yarn-debug.log*
 
 # Ignore Spring files
 /spring/*.pid
+
+# Ignore other nonsense
 .DS_Store
