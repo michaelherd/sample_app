@@ -69,12 +69,12 @@
     <orderEntry type="library" scope="PROVIDED" name="fog-brightbox (v0.16.1, rbenv: 2.5.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fog-cloudatcost (v0.4.0, rbenv: 2.5.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fog-cloudstack (v0.1.0, rbenv: 2.5.6) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-core (v2.2.0, rbenv: 2.5.6) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-core (v2.1.0, rbenv: 2.5.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fog-digitalocean (v0.4.0, rbenv: 2.5.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fog-dnsimple (v2.1.0, rbenv: 2.5.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fog-dynect (v0.0.3, rbenv: 2.5.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fog-ecloud (v0.3.0, rbenv: 2.5.6) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-google (v1.7.1, rbenv: 2.5.6) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-google (v1.9.1, rbenv: 2.5.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fog-internet-archive (v0.0.1, rbenv: 2.5.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fog-json (v1.2.0, rbenv: 2.5.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fog-local (v0.6.0, rbenv: 2.5.6) [gem]" level="application" />
