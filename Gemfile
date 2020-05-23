@@ -24,7 +24,7 @@ gem 'mini_magick'
 gem 'fog-core', '2.1.0'
 gem 'fog'
 # Use Puma as the app server
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker'
 # Use Redis adapter to run Action Cable in production
